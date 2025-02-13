@@ -42,14 +42,14 @@ class Interface:
             "sm1_sd": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
             "sm1_ccw": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
             "sm1_cw": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
-            #"pot_3": {"type": "spinbox", "min": 0, "max": 255, "default": 255},
-            #"pot_4": {"type": "spinbox", "min": 0, "max": 255, "default": 255},
+            "pot_3": {"type": "spinbox", "min": 0, "max": 255, "default": 255},
+            "pot_4": {"type": "spinbox", "min": 0, "max": 255, "default": 255},
             "sm2_sd": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
             "sm2_ccw": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
             "sm2_cw": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
             "hx_gain": {"type": "spinbox_set", "Option1": 32, "Option2": 64, "Option3": 128, "default": 64},
-            #"led_green": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
-            #"led_blue": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
+            "led_green": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
+            "led_blue": {"type": "spinbox", "min": 0, "max": 1, "default": 0},
             "encoder_1": {"type": "spinbox", "min": 0, "max": 255255, "default": 0},
             "encoder_2": {"type": "spinbox", "min": 0, "max": 255255, "default": 0}
         }
